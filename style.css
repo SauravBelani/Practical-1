@@ -238,6 +238,12 @@ li
     outline: none;
     text-decoration: none;
 }
+.timer1
+{
+    position: relative;
+    font-size: 14px;
+    color: #7f7f7f;
+}
 ._1AtVbE
 {
     display:block;
