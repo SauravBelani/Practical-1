@@ -319,7 +319,7 @@
                 </div>
             </div>
             <div id="carouselExampleControls" class="owl-carousel slide" data-bs-ride="carousel">
-            <div class="d-flex flex-row bd-highlight carousel-inner catMenu border-bottom shadow-sm overflow-hidden">
+            <div class="d-flex flex-row bd-highlight carousel-inner catMenu border-bottom shadow-sm overflow-hidden" id="next">
                 <div class="active d-block item mt-1 my-3" style="height: 270px; width: 250px;">
                     <a href="" class="itemA">
                         <div class="d-flex flex-column">
@@ -442,14 +442,14 @@
                 </div>
                 
                 <div class="_35l9rN d-flex flex-row" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <div class="_2kgArB" onclick="">
+                    <div class="_2kgArB" onclick="document.getElementById('next').style.justifyContent='flex-end'">
                         <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_1xtBwk">
                             <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000000" class="_23HYg_"></path>
                         </svg>
                     </div>
                 </div>
                 <div class="_35l9rM d-flex flex-row" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <div class="_2kgArB" onclick="">
+                    <div class="_2kgArB" onclick="document.getElementById('next').style.justifyContent='flex-start'">
                         <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000000" class="_23HYg_"></path>
                         </svg>
@@ -485,7 +485,7 @@
                 </div>
                 
             </div>
-            <div class="d-flex flex-row bd-highlight catMenu border-bottom shadow-sm overflow-hidden">
+            <div class="d-flex flex-row bd-highlight catMenu border-bottom shadow-sm overflow-hidden" id="next1">
                 <div class="item mt-1 my-3" style="height: 270px; width: 250px;">
                     <a href="" class="itemA">
                         <div class="d-flex flex-column">
@@ -606,15 +606,35 @@
                         </div>
                     </a>
                 </div>
-                <div class="_35l9rN d-flex flex-row">
-                    <div class="_2kgArB">
+                <div class="item mt-1 my-3" style="height: 270px; width: 250px;">
+                    <a href="" class="itemA">
+                        <div class="d-flex flex-column">
+                            <div class="mt-2" style="height: 135px;">
+                                <img src="Images/ProductImage/c-rockerz-on-ear-510-boat.jpeg" alt="" height="100%" width="auto">
+                            </div>
+                            <div class="btmTxt">
+                                <div class="btmTxt mt-4 mb-1 fw-bold text-black" style="font-size: 14px;">
+                                    Headphones Over Ear
+                                </div>
+                                <div class="position-relative mt-2 fw-bold" style="color: #388e3c;font-size: 12px;">
+                                    From ₹ 799
+                                </div>
+                                <div class="position-relative mt-2 text-muted" style="font-size: 14px;">
+                                    Wired/Wireless Range
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="_35l9rN d-flex flex-row" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <div class="_2kgArB" onclick="document.getElementById('next1').style.justifyContent='flex-end'">
                         <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_1xtBwk">
                             <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000000" class="_23HYg_"></path>
                         </svg>
                     </div>
                 </div>
                 <div class="_35l9rM d-flex flex-row" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <div class="_2kgArB" onclick="myFunction()">
+                    <div class="_2kgArB" onclick="document.getElementById('next1').style.justifyContent='flex-start'">
                         <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000000" class="_23HYg_"></path>
                         </svg>
@@ -624,7 +644,7 @@
         </div>
     </div>
     <!--deal div ends-->
-    
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
